@@ -201,7 +201,7 @@ body {
 }
 .timeline .swiper-button-prev {
   left: 8%;
-  background-image: url("https://backstory.dailyiowan.com/wp-content/uploads/2020/07/down.png");
+  background-image: url("https://backstory.dailyiowan.com/wp-content/uploads/2020/07/up.png");
 }
 .timeline .swiper-button-prev:hover {
   -webkit-transform: translateX(-3px);
@@ -209,7 +209,7 @@ body {
 }
 .timeline .swiper-button-next {
   right: 8%;
-  background-image: url("https://backstory.dailyiowan.com/wp-content/uploads/2020/07/up.png");
+  background-image: url("https://backstory.dailyiowan.com/wp-content/uploads/2020/07/down.png");
 }
 .timeline .swiper-button-next:hover {
   -webkit-transform: translateX(3px);
@@ -252,24 +252,31 @@ body {
     top: 45%;
     left: auto;
     right: 0%;
+    /*
     -webkit-transform: rotate(90deg) translate(0, 10px);
             transform: rotate(90deg) translate(0, 10px);
+  */  
   }
-  .timeline .swiper-button-prev:hover {
+ /* .timeline .swiper-button-prev:hover {
     -webkit-transform: rotate(90deg) translate(-3px, 10px);
             transform: rotate(90deg) translate(-3px, 10px);
   }
+*/
   .timeline .swiper-button-next {
     top: 55%;
     bottom: 15%;
     right: 0%;
+    /*
     -webkit-transform: rotate(90deg) translate(0, 10px);
             transform: rotate(90deg) translate(0, 10px);
+          */
   }
+  /*
   .timeline .swiper-button-next:hover {
     -webkit-transform: rotate(90deg) translate(3px, 10px);
             transform: rotate(90deg) translate(3px, 10px);
   }
+  */
 }
 @media screen and (min-width: 1024px) {
   .timeline .swiper-slide::after {

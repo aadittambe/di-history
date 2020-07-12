@@ -216,7 +216,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   p{
-    font-size: 36px;
+    font-size: 28px;
   }
   .timeline .swiper-slide::after {
     right: -30%;

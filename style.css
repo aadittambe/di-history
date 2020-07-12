@@ -7,6 +7,7 @@ body,
 p{
   font-size: 24px;
   font-family: 'Lato', sans-serif;
+  color: #ceb47c;
 }
 
 body {
@@ -135,6 +136,7 @@ body {
 .timeline .swiper-pagination {
   right: 15% !important;
   height: 100%;
+  line-height: 0;
   display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -199,7 +201,7 @@ body {
 }
 .timeline .swiper-button-prev {
   left: 8%;
-  background-image: url("https://backstory.dailyiowan.com/wp-content/uploads/2020/07/left-arrow-1.svg");
+  background-image: url("https://backstory.dailyiowan.com/wp-content/uploads/2020/07/down.png");
 }
 .timeline .swiper-button-prev:hover {
   -webkit-transform: translateX(-3px);
@@ -207,7 +209,7 @@ body {
 }
 .timeline .swiper-button-next {
   right: 8%;
-  background-image: url("https://backstory.dailyiowan.com/wp-content/uploads/2020/07/right-arrow-1.svg");
+  background-image: url("https://backstory.dailyiowan.com/wp-content/uploads/2020/07/up.png");
 }
 .timeline .swiper-button-next:hover {
   -webkit-transform: translateX(3px);
@@ -281,6 +283,6 @@ body {
     right: 25%;
   }
   .timeline .swiper-container {
-    height: 998px;
+    height: 740px;
 }
 }
